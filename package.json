@@ -1,0 +1,26 @@
+{
+  "name": "my-recipes",
+  "version": "0.0.1",
+  "description": "A Web App to help manage your personal cooking recipes.",
+  "main": "index.js",
+  "author": "Michael Arbib <arbib.michael@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.2",
+    "husky": "^1.3.1",
+    "jest": "^24.1.0",
+    "prettier": "^1.16.4",
+    "pretty-quick": "^1.10.0",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.13.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.3.3"
+  }
+}
