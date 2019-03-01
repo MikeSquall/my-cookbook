@@ -1,4 +1,5 @@
 module.exports = {
+  setupFiles: ['jest-localstorage-mock'],
   preset: 'ts-jest',
   transform: {
     '\\.ts$': 'ts-jest',
